@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!--Favicon Image-->
+    <link rel="icon" type="png" href="/assets/images/SigWeb Logo.png" />
+
+    <title>Kansas State University ACM SIGWEB</title>
+    <meta name="description" content="We are K-State ACM SIGWEB!">
+</head>
+
+<body>
+    <header>
+        <!--Nav Bar for navigating the page-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand bg-primary" href="#">K-State ACM SIGWEB</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="carousel col-md-12 landing-row">
+                <h1 class="text" class="text-black text-center">K-STATE ACM SIGWEB</h1>
+            </div>
+        </div>
+    </div>
+    <!--Events Calendar-->
+    <div class="container">
+        <div class="row">
+            <div class="event-calendar col-md-6 col-sm-8 col-xs-12 mx-auto" id="Calendar">
+                <div class="row">
+                    <h3 class="display-6 text-center">Upcoming Events</h3>
+                </div>
+                <table class="table">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Reccuring</th>
+                            <th scope="col">Info</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Wed 5:00PM</th>
+                            <td>Weekly Meetup</td>
+                            <td>Yes</td>
+                            <td>
+                                <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#WeeklyMeetupInfo" aria-controls="WeeklyMeetupInfo">Meeting
+                                    Info</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-start " tabindex="-1" id="WeeklyMeetupInfo"
+            aria-labelledby="WeeklyMeetupInfoLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title display-5" id="WeeklyMeetupInfoLabel">Weekly Meetup</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <h6 class="display-6">Time & Place:</h6>
+                <p>We meet in Room #### every Wednesday at 5:00PM</p>
+                <h6 class="display-6">Relevant Info:</h6>
+                <p>
+                    In this meeting we plan future events for our club to host and also
+                    occasionally lead tutorial on web development. Come join us if you are interested in the
+                    vast world of web development!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/SigWeb Logo.png" class="card-img-top" alt="SIG Web Dev Logo">
+            <div class="card-body">
+              <h5 class="card-title">Sig Web Website</h5>
+              <h6 class="text-muted">Current Project</h6>
+              <p class="card-text">This website is what we are currently working on</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/WebDevPhoto.png" class="card-img-top" alt="Web Development Stock Photo">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <h6 class="text-muted">Something</h6>
+              <p class="card-text">Hello</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/HTML.jfif" class="card-img-top" alt="HTML Stock Photo">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <h6 class="text-muted">Something</h6>
+              <p class="card-text">Hi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer>
+        <div class="row align-items-center bg-black">
+            <div class="col-md-6 text-start clearfix">
+                <img class="img-fluid" src="assets/images/SigWeb Logo.png" alt="SIGWEB Logo"
+                    style="height: auto; max-height: 5em;">
+            </div>
+            <div class="col-md-6 text-end">
+                <a href="mailto:russfeld@k-state.edu" target="_blank" style="color:black">
+                    <i class="bi-envelope" style="font-size: 4em; color:white"></i>
+                </a>
+                <a href=" https://discord.gg/amqHhjAsfr" target="_blank">
+                        <i class="bi-discord" style="font-size: 4em; color:#738ADB" aria-label="Discord"
+                            alt="Discord Logo"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>
