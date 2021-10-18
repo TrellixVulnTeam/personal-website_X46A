@@ -26,7 +26,7 @@
     <!--Navigation Bar for navigating the page-->
     <nav class="navbar navbar-expand-md" style="background-color: #f7e7ce;">
       <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -54,7 +54,7 @@
     </nav>
   </header>
 
-  <!--Events Calendar-->
+  <!--Relevent Classes-->
   <div class="row">
     <div class="event-calendar col-md-6 col-sm-8 col-xs-12 mx-auto" id="Calendar">
       <div class="row">
@@ -63,41 +63,151 @@
       <table class="table">
         <thead class="">
           <tr>
-            <th scope="col">Date</th>
             <th scope="col">Class</th>
             <th scope="col">Info</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">MWF </th>
-            <td>ECON 110</td>
+            <td>CIS 115</td>
             <td>
-              <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#WeeklyMeetupInfo"
-                aria-controls="WeeklyMeetupInfo">Information</button>
+              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#Class115"
+                aria-controls="ClassInfo" style="background-color: blue;";>Information</button>
+            </td>
+          </tr>
+          <tr>
+            <td>CIS 200</td>
+            <td>
+              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#Class200"
+                aria-controls="ClassInfo">Information</button>
+            </td>
+          </tr>
+          <tr>
+            <td>CIS 300</td>
+            <td>
+              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#Class300"
+                aria-controls="ClassInfo">Information</button>
+            </td>
+          </tr>
+          <tr>
+            <td>CIS 301</td>
+            <td>
+              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#Class301"
+                aria-controls="ClassInfo">Information</button>
+            </td>
+          </tr>
+          <tr>
+            <td>CIS 308</td>
+            <td>
+              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#Class308"
+                aria-controls="ClassInfo">Information</button>
+            </td>
+          </tr>
+          <tr>
+            <td>CIS 400</td>
+            <td>
+              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#Class400"
+                aria-controls="ClassInfo">Information</button>
+            </td>
+          </tr>
+          <tr>
+            <td>ECE 241</td>
+            <td>
+              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#Class241"
+                aria-controls="ClassInfo">Information</button>
             </td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
-  <div class="offcanvas offcanvas-start " tabindex="-1" id="WeeklyMeetupInfo" aria-labelledby="WeeklyMeetupInfoLabel">
+  <div class="offcanvas offcanvas-start " tabindex="-1" id="Class115" aria-labelledby="Class115">
     <div class="offcanvas-header">
-      <h5 class="offcanvas-title display-5" id="WeeklyMeetupInfoLabel">Weekly Meetup</h5>
+      <h5 class="offcanvas-title display-5" id="Class115">About CIS 115</h5>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-      <h6 class="display-6">Time & Place:</h6>
-      <p>We meet in Room #### every Wednesday at 5:00PM</p>
-      <h6 class="display-6">Relevant Info:</h6>
+      <h4 class="offcanvas-title display-8" id="Class115">Introduction to Computing Science</h4>
       <p>
-        In this meeting we plan future events for our club to host and also
-        occasionally lead tutorial on web development. Come join us if you are interested in the
-        vast world of web development!
+        A survey of the discipline of Computing Science and its interaction with other disciplines, incorporating historical development, theories, and tools of Computing Science (algorithm design and programming). Topics include: mechanical computers, digital computers, bioinformatics, microcontrollers, robotics, security, scientific computing, simulation, and web technologies.
       </p>
     </div>
   </div>
+  <div class="offcanvas offcanvas-start " tabindex="-1" id="Class200" aria-labelledby="Class200">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title display-5" id="Class200">About CIS 200</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <h4 class="offcanvas-title display-8" id="Class200">Programming Fundamentals</h4>
+      <p>
+        Principles of algorithm design and their application to procedural programming: state, control structures, methods. Patterns of conditional and iterative control structure.  Program testing. Introduction to arrays, classes, and objects.  Programming projects.
+      </p>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas-start " tabindex="-1" id="Class300" aria-labelledby="Class300">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title display-5" id="Class300">About CIS 300</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <h4 class="offcanvas-title display-8" id="Class300">Data and Program Structures</h4>
+      <p>
+        A study of common data and program structures together with associated algorithms. Topics include interfaces, design patterns, arrays, stacks, queues, lists, trees, hash tables, recursion, binary search, and tree traversals. Experience with both use and implementation of these structures and algorithms using a modern programming language. Discussion of tradeoffs involving performance and software maintainability.
+      </p>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas-start " tabindex="-1" id="Class301" aria-labelledby="Class301">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title display-5" id="Class301">About CIS 301</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <h4 class="offcanvas-title display-8" id="Class301">Logical Foundations of Programming</h4>
+      <p>
+        Logical formalisms used to model and reason about computer systems. Propositional and predicate logic, syntax, semantics, and proof theory; soundness and completeness issues. Mathematical induction. Program verification: invariants and program logics.
+      </p>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas-start " tabindex="-1" id="Class308" aria-labelledby="Class308">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title display-5" id="Class308">About CIS 308</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <h4 class="offcanvas-title display-8" id="Class308">C/C++ Language Laboratory</h4>
+      <p>
+        Fundamentals of programming in C and C++; applications.
+      </p>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas-start " tabindex="-1" id="Class400" aria-labelledby="Class400">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title display-5" id="Class400">About CIS 400</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <h4 class="offcanvas-title display-8" id="Class400">Object-Oriented Design, Implementation, and Testing</h4>
+      <p>
+        A study of concepts and techniques used to produce quality software programs. Object-oriented concepts, models, execution environments, design and testing techniques. Extensive application of these concepts and techniques to the development of non-trivial software programs.
+      </p>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas-start " tabindex="-1" id="Class241" aria-labelledby="Class241">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title display-5" id="Class241">About ECE 241</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <h4 class="offcanvas-title display-8" id="Class241">Introduction to Computer Engineering</h4>
+      <p>
+        Number systems, Boolean algebra fundamentals, gates, flip-flops, shift registers, memories, etc.; basic engineering aspects of computer architecture; introduction to hardware description languages.
+      </p>
+    </div>
+  </div>
+  <!--End of relevent classes-->
 
+  <!--Spotify API-->
   <div class="row row-cols-2 row-cols-md-2">
     <iframe src="https://open.spotify.com/embed/playlist/23IxLkcdH5iVwn309lxKyz" width="50%" height="380"
       frameBorder="0" allowfullscreen=""
@@ -107,6 +217,7 @@
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
   </div>
 
+  <!--Cards For Stuff-->
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card">
@@ -140,6 +251,7 @@
     </div>
   </div>
 
+  <!--Footer-->
   <footer>
     <div class="row" style="background-color: linen;">
       <div class="col-md-6 text-end">
