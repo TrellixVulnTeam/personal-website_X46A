@@ -36,18 +36,24 @@
           <li class="nav-item active">
             <a class="nav-link" style="color: black;" href="#">Home</a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" style="color: black;" href="#projects">Projects</a>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" style="color: black;" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Socials
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="https://ksu.joinhandshake.com/users/25823888" target="_blank">Handshake</a>
-              <a class="dropdown-item" href="https://www.linkedin.com/in/jordan-bui23" target="_blank">LinkedIn</a>
-              <a class="dropdown-item" href="https://github.com/jordanbui23" target="_blank">Github</a>
-              <a class="dropdown-item" href="resume.html">Resume</a>
+              <a class="dropdown-item" href="https://ksu.joinhandshake.com/users/25823888" target="_blank"><i class="bi bi-hand-thumbs-up-fill"></i>Handshake</a>
+              <a class="dropdown-item" href="https://www.linkedin.com/in/jordan-bui23" target="_blank"><i class="bi bi-linkedin"></i>LinkedIn</a>
+              <a class="dropdown-item" href="https://github.com/jordanbui23" target="_blank"><i class="bi bi-github"></i>Github</a>
+              <a class="dropdown-item" href="resume.html"><i class="bi bi-file-earmark-person-fill"></i>Resume</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="https://www.instagram.com/jordan.bui/?hl=en" target="_blank">Instagram</a>
+              <a class="dropdown-item" href="https://www.instagram.com/jordan.bui/?hl=en" target="_blank"><i class="bi bi-instagram"></i>Instagram</a>
               <a class="dropdown-item" href="https://www.maxpreps.com/athlete/jordan-bui/9qPklTRAEeiT-Oz0u-e-FA/default.htm" target="_blank">MaxPreps</a>
+              <a class="dropdown-item" href="https://open.spotify.com/user/billowerfrank?si=dd2664c6f7794e4d" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-spotify" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"/>
+              </svg>Spotify</a>
             </div>
           </li>
         </ul>
@@ -56,7 +62,7 @@
   </header>
 
   <!--Relevent Classes-->
-  <div class="row">
+  <div class="row" style="margin: auto;">
     <div class="event-calendar col-md-6 col-sm-8 col-xs-12 mx-auto" id="Calendar">
       <div class="row">
         <h3 class="display-6 text-center">Relevent Classes</h3>
@@ -73,7 +79,7 @@
             <td>CIS 115</td>
             <td>
               <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#Class115"
-                aria-controls="ClassInfo">Information</button>
+                aria-controls="ClassInfo" style="color: #96FFFF;">Information</button>
             </td>
           </tr>
           <div class="offcanvas offcanvas-start " tabindex="-1" id="Class115" aria-labelledby="Class115">
@@ -209,7 +215,7 @@
   <!--End of relevent classes-->
 
   <!--Spotify API-->
-  <div class="row row-cols-2 row-cols-md-2">
+  <div class="row row-cols-2 row-cols-md-2" style="margin: auto;">
     <iframe src="https://open.spotify.com/embed/playlist/23IxLkcdH5iVwn309lxKyz" width="50%" height="380"
       frameBorder="0" allowfullscreen=""
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
@@ -219,33 +225,43 @@
   </div>
 
   <!--Cards For Stuff-->
-  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4" id="projects" style="margin: auto;">
     <div class="col">
-      <div class="card">
-        <img src="assets/images/SigWeb Logo.png" class="card-img-top" alt="SIG Web Dev Logo">
+      <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img src="assets/images/FreeCellGame.png" class="card-img-top" alt="FreeCell Solitaire">
+        <hr>
+        <img src="assets/images/FreeCellSA.png" class="card-img-top" alt="FreeCell Solitaire Software Architecture">
         <div class="card-body">
-          <h5 class="card-title">Sig Web Website</h5>
-          <h6 class="text-muted">Current Project</h6>
+          <h5 class="card-title">FreeCell Solitaire</h5>
+          <h6 class="text-muted">Project</h6>
           <p class="card-text">This website is what we are currently working on</p>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card">
-        <img src="assets/images/WebDevPhoto.png" class="card-img-top" alt="Web Development Stock Photo">
+      <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img src="assets/images/MapViewer.png" class="card-img-top" alt="Map Viewer">
+        <hr>
+        <img src="assets/images/MapViewerQuadTree.png" class="card-img-top" alt="Map Viewer Quad Tree">
+        <hr>
+        <img src="assets/images/MapViewerSA.png" class="card-img-top" alt="Map Viewer Software Architecture">
         <div class="card-body">
-          <h5 class="card-title">Project 1</h5>
-          <h6 class="text-muted">Something</h6>
+          <h5 class="card-title">Map Viewer</h5>
+          <h6 class="text-muted">Current Project</h6>
           <p class="card-text">Hello</p>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card">
-        <img src="assets/images/HTML.jfif" class="card-img-top" alt="HTML Stock Photo">
+      <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img src="assets/images/ConnectFour.png" class="card-img-top" alt="Connect Four">
+        <hr> 
+        <img src="assets/images/ConnectFourDoubleLinkedList.png" class="card-img-top" alt="Connect Four Double Linked List">
+        <hr> 
+        <img src="assets/images/ConnectFourSA.png" class="card-img-top" alt="Connect Four Software Architecture">
         <div class="card-body">
-          <h5 class="card-title">Project 2</h5>
-          <h6 class="text-muted">Something</h6>
+          <h5 class="card-title">Connect Four</h5>
+          <h6 class="text-muted">Project</h6>
           <p class="card-text">Hi</p>
         </div>
       </div>
@@ -254,8 +270,8 @@
 
   <!--Footer-->
   <footer>
-    <div class="row" style="background-color: linen;">
-      <div class="col-md-6 text-end">
+    <div class="row" style="background-color: linen; margin: auto;">
+      <div class="col-md-12 text-end">
         <a href="mailto:jbui@ksu.edu" target="_blank" style="color:black">
           <i class="bi-envelope" style="font-size: 4em; color:white" title="Email Me!"></i>
         </a>
