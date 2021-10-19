@@ -1,15 +1,28 @@
-
+/* Changes the color of the body background of all pages*/
 #body-background {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+    /*
     background: linear-gradient(135deg, #98dde6, 60%,#05376d);
+    */
 }
 
+/* Changes the color of the button background*/
 .btn {
     color: white;
     background: linear-gradient(135deg, #F27D42, 30%, #F27D92);
 }
 
+/* Changes the color of the navbar background*/
 #navbarcolor {
     background: linear-gradient(135deg, #C8EFF9, 80%, #96FFFF);
+}
+
+/* Changes the color of the offcanvas background*/
+.offcanvas {
+    background: linear-gradient(0deg, rgb(170, 129, 129), 40%, rgb(223, 189, 189));
 }
 
 /*
@@ -20,7 +33,7 @@
 * Light Blue #C8EFF9
 */
 
-/* Stuff for making the relevent classes have a faded background */
+/* Stuff for making the relevent classes have a faded background 
 .box {
 	width: 300px;
 	height: 200px;
@@ -46,11 +59,4 @@
 .box:nth-child()::before {
 	background: linear-gradient(135deg, #24ff73, #2196F3);
 }
-
-/*
-* Dark Blue #022449
-* Orange #F27D42
-* Mid Blue #58BDCA
-* Bright Blue #96FFFF
-* Light Blue #C8EFF9
 */
