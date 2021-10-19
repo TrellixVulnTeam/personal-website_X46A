@@ -1,10 +1,15 @@
 
 #body-background {
-    background: linear-gradient(135deg, )
+    background: linear-gradient(135deg, #98dde6, 60%,#05376d)
 }
 
 .btn {
+    color: white;
     background: linear-gradient(135deg, #F27D42, 30%, #F27D92)
+}
+
+#navbarcolor {
+    background: linear-gradient(135deg, #C8EFF9, 80%, #96FFFF);
 }
 
 /*
