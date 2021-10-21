@@ -17,6 +17,12 @@
     background: linear-gradient(0deg, rgb(170, 129, 129), 40%, rgb(223, 189, 189));
 }
 
+.class-text {
+	color: white;
+	font-weight: 500;
+	background: linear-gradient(135deg, #FA7785, 30%, #faa5ae);
+}
+
 /*
 * Dark Blue #022449
 * Orange #F27D42
