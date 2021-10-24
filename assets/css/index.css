@@ -20,16 +20,8 @@
 .class-text {
 	color: white;
 	font-weight: 500;
-	background: linear-gradient(135deg, #FA7785, 30%, #faa5ae);
+	background: linear-gradient(135deg, #FA7785 50%, 30%, #faa5ae);
 }
-
-/*
-* Dark Blue #022449
-* Orange #F27D42
-* Mid Blue #58BDCA
-* Bright Blue #96FFFF
-* Light Blue #C8EFF9
-*/
 
 /* Stuff for making the relevent classes have a faded background 
 .box {
