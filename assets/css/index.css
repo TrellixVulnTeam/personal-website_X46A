@@ -14,7 +14,7 @@
 
 /* Changes the color of the offcanvas background*/
 .offcanvas {
-    background: linear-gradient(0deg, rgb(170, 129, 129), 40%, rgb(223, 189, 189));
+    background: linear-gradient(300deg, #FA7785, 30%, #faa5ae);
 }
 
 .class-text {
