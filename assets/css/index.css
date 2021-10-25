@@ -23,7 +23,13 @@
 	background: linear-gradient(135deg, #FA7785 50%, 30%, #faa5ae);
 }
 
-/* Stuff for making the relevent classes have a faded background 
+/* Changes the size of photos in carousel to make it all fit in the carousel without changing the rest of the site */
+.d-block {
+	max-width: fit-content;
+	max-height: fit-content;
+}
+
+/* Stuff for making the relevent classes have a faded background... not working for no reason
 .box {
 	width: 300px;
 	height: 200px;
